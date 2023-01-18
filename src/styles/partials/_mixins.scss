@@ -1,0 +1,15 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+
+}
+
+@mixin between {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin upbold {
+    text-transform: uppercase;
+    font-weight: bold;
+}

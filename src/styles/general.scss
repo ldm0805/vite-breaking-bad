@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "@fontsource/montserrat";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat";
+    background: rgb(36, 14, 0);
+    background: linear-gradient(90deg, rgba(36, 14, 0, 1) 0%, rgba(236, 174, 3, 0.8550770650056898) 92%);
+}
+
+.container-yugi {
+    width: 90%;
+    margin: 0 auto;
+}
